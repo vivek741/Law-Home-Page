@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Red Rose", cursive; */
+  }
+body{
+    background-color: #2B2922;
+    color: white;
+    font-family: sans-serif ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    margin: 20px 50px;
+    height: auto;
+}
+.list{
+    display: flex;
+    list-style: none;
+    /* position: relative;
+    left: 150px; */
+}
+.list-item{
+    padding: 20px;
+    color: #929292;
+}
+.list-item:hover {
+    color: white;
+    cursor: pointer;
+} 
+
+.button-small{
+    width: 120px;
+    height: 35px;
+    margin: 20px 50px;
+    color: #A08F36;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color:  #A08F36;
+    border-width: 2px;
+}
+.hero{
+    display: flex;
+}
+.hero h1 {
+    width: 50%;
+    font-size: 50px;
+    margin: 20px 55px;
+    
+}
+.hero p{
+    width: 50%;
+    padding: 20px 90px;
+    font-size: 17px;
+    color: #C0C0C0;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+.btn{
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 5px;
+    /* position: relative;
+    left: 1100px; */
+}
+.btns{
+    margin-right: 50px;
+    position: relative;
+    left: 1121px;
+    top: 17px;
+    width: max-content;
+}
+.btn-left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-right: 40px ;
+}
+.btn-right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.circle{
+    border: 2px solid white;
+    background-color: transparent;
+    height: 40px;
+    border-radius:50%;
+    width: 40px;
+
+}
+.circles > div{
+    background-color: #A08F36;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles{
+    display: flex;
+    position: relative;
+    bottom: 24px;
+    left: 90%;
+    z-index: -1;
+    width: max-content;
+}
